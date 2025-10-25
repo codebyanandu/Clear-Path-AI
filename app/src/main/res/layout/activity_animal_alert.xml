@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AnimalAlertActivity">
+
+    <LinearLayout
+        android:id="@+id/alertBackLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_back_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Animal Alert !"
+            android:gravity="center"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Press the Start button below to Play \nSound if animal approaches"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="@color/grey"/>
+
+        <ImageView
+            android:id="@+id/startImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/start" />
+
+
+        <ImageView
+            android:id="@+id/stopImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:src="@drawable/stop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_desc"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+
+</LinearLayout>

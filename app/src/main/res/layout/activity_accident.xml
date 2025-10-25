@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".AccidentActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accident Alert !"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/red"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/sosAlertImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sosalert"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/sosAlertImageView"
+            app:layout_constraintStart_toStartOf="@+id/sosAlertImageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accident"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/safeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="I'm Safe"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rect_button_red"/>
+
+
+
+</LinearLayout>
