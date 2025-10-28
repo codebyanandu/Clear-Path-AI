@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai.Service;
+package com.techwithanandu.clearpathai.Service;
 
 import android.Manifest;
 import android.app.Service;
@@ -16,7 +16,7 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 
-import com.nextgen.clearpathai.GlobalPreference;
+import com.techwithanandu.clearpathai.GlobalPreference;
 
 public class LocationService extends Service implements LocationListener {
 

@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai.Adapter;
+package com.techwithanandu.clearpathai.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,10 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.nextgen.clearpathai.GlobalPreference;
-import com.nextgen.clearpathai.ModelClass.HistoryModelClass;
-import com.nextgen.clearpathai.ModelClass.RouteModelClass;
-import com.nextgen.clearpathai.R;
+import com.techwithanandu.clearpathai.GlobalPreference;
+import com.techwithanandu.clearpathai.ModelClass.RouteModelClass;
+import com.techwithanandu.clearpathai.R;
+import com.techwithanandu.clearpathai.URLs;
 
 import java.util.ArrayList;
 
@@ -49,7 +49,7 @@ public class RouteAdapter extends RecyclerView.Adapter<RouteAdapter.MyViewHolder
         holder.locationTV.setText(routeList.getLocation());
         holder.dateTV.setText(routeList.getDate());
 
-        Glide.with(context).load("http://" + IMAGE_URL + routeList.getImage()).into(holder.reportIV);
+        Glide.with(context).load("http://" + URLs.IMAGES_URL + routeList.getImage()).into(holder.reportIV);
 
 
     }

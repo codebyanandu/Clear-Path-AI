@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai;
+package com.techwithanandu.clearpathai;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;

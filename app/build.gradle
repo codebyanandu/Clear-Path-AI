@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.nextgen.clearpathai'
+    namespace 'com.techwithanandu.clearpathai'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.nextgen.clearpathai"
+        applicationId "com.techwithanandu.clearpathai"
         minSdk 26
         targetSdk 33
         versionCode 1

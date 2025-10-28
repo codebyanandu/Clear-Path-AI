@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai.ui;
+package com.techwithanandu.clearpathai.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,11 +10,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.nextgen.clearpathai.AnimalAlertActivity;
-import com.nextgen.clearpathai.HistoryActivity;
-import com.nextgen.clearpathai.R;
-import com.nextgen.clearpathai.ReportActivity;
-import com.nextgen.clearpathai.RouteActivity;
+import com.techwithanandu.clearpathai.AnimalAlertActivity;
+import com.techwithanandu.clearpathai.HistoryActivity;
+import com.techwithanandu.clearpathai.R;
+import com.techwithanandu.clearpathai.ReportActivity;
+import com.techwithanandu.clearpathai.RouteActivity;
 
 /**
     DashboardFragment

@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai;
+package com.techwithanandu.clearpathai;
 
 import static android.content.ContentValues.TAG;
 

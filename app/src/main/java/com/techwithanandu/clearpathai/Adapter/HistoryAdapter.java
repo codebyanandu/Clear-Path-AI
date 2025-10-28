@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai.Adapter;
+package com.techwithanandu.clearpathai.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,11 +12,11 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
+import com.techwithanandu.clearpathai.R;
 import com.bumptech.glide.Glide;
-import com.nextgen.clearpathai.GlobalPreference;
-import com.nextgen.clearpathai.ModelClass.HistoryModelClass;
-import com.nextgen.clearpathai.R;
+import com.techwithanandu.clearpathai.GlobalPreference;
+import com.techwithanandu.clearpathai.ModelClass.HistoryModelClass;
+import com.techwithanandu.clearpathai.URLs;
 
 import java.util.ArrayList;
 
@@ -51,7 +51,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHo
         holder.locationTV.setText(historyList.getLocation());
         holder.dateTV.setText(historyList.getDate());
 
-        Glide.with(context).load("http://" + IMAGE_URL + historyList.getImage()).into(holder.reportIV);
+        Glide.with(context).load("http://" + URLs.IMAGES_URL + historyList.getImage()).into(holder.reportIV);
 
         holder.viewInMapLL.setOnClickListener(new View.OnClickListener() {
             @Override

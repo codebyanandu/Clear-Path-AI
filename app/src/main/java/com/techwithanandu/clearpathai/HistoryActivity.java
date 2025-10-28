@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai;
+package com.techwithanandu.clearpathai;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,8 +19,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.nextgen.clearpathai.Adapter.HistoryAdapter;
-import com.nextgen.clearpathai.ModelClass.HistoryModelClass;
+import com.techwithanandu.clearpathai.Adapter.HistoryAdapter;
+import com.techwithanandu.clearpathai.ModelClass.HistoryModelClass;
 
 import org.json.JSONArray;
 import org.json.JSONException;

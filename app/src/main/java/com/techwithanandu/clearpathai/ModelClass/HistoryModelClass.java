@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai.ModelClass;
+package com.techwithanandu.clearpathai.ModelClass;
 
 public class HistoryModelClass {
 

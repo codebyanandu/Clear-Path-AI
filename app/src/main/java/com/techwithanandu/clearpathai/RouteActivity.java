@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai;
+package com.techwithanandu.clearpathai;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -20,9 +20,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.nextgen.clearpathai.Adapter.HistoryAdapter;
-import com.nextgen.clearpathai.Adapter.RouteAdapter;
-import com.nextgen.clearpathai.ModelClass.RouteModelClass;
+import com.techwithanandu.clearpathai.Adapter.RouteAdapter;
+import com.techwithanandu.clearpathai.ModelClass.RouteModelClass;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai;
+package com.techwithanandu.clearpathai;
 
 public class URLs {
 
@@ -6,7 +6,7 @@ public class URLs {
 
     public static final String MAIN_URL = "http://_YOUR_DOMAIN_URL_/clearPath/";
 
-    //public static final String IMAGES_URL = MAIN_URL + "/uploads/";
+    public static final String IMAGES_URL = MAIN_URL + "/uploads/";
     public static final String API_URL = MAIN_URL + "/api/";
     public static final String LOGIN_URL =  API_URL + "login.php";
     public static final String SIGNUP_URL =  API_URL + "register.php";

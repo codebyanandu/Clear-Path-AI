@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai.ui;
+package com.techwithanandu.clearpathai.ui;
 
 import android.Manifest;
 import android.content.Context;
@@ -38,13 +38,12 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
-import com.nextgen.clearpathai.AccidentActivity;
-import com.nextgen.clearpathai.ForgotPasswordActivity;
-import com.nextgen.clearpathai.GlobalPreference;
-import com.nextgen.clearpathai.LoginActivity;
-import com.nextgen.clearpathai.R;
-import com.nextgen.clearpathai.URLs;
-import com.nextgen.clearpathai.databinding.FragmentHomeBinding;
+import com.techwithanandu.clearpathai.AccidentActivity;
+import com.techwithanandu.clearpathai.GlobalPreference;
+import com.techwithanandu.clearpathai.LoginActivity;
+import com.techwithanandu.clearpathai.R;
+import com.techwithanandu.clearpathai.URLs;
+import com.techwithanandu.clearpathai.databinding.FragmentHomeBinding;
 
 import org.json.JSONArray;
 import org.json.JSONException;

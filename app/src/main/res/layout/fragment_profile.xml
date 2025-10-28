@@ -80,7 +80,7 @@
         android:id="@+id/pEmailTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="anandu@gmail.com"
+        android:text="techwithanandu@gmail.com"
         android:textColor="@color/black"
         android:layout_marginTop="5dp"
         android:textSize="20dp"/>

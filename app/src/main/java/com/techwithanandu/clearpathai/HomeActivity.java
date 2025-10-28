@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai;
+package com.techwithanandu.clearpathai;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,8 +11,8 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.nextgen.clearpathai.Service.LocationService;
-import com.nextgen.clearpathai.databinding.ActivityHomeBinding;
+import com.techwithanandu.clearpathai.Service.LocationService;
+import com.techwithanandu.clearpathai.databinding.ActivityHomeBinding;
 
 public class HomeActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai.ui;
+package com.techwithanandu.clearpathai.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,10 +23,10 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
-import com.nextgen.clearpathai.EditProfileActivity;
-import com.nextgen.clearpathai.GlobalPreference;
-import com.nextgen.clearpathai.R;
-import com.nextgen.clearpathai.databinding.FragmentHomeBinding;
+import com.techwithanandu.clearpathai.EditProfileActivity;
+import com.techwithanandu.clearpathai.GlobalPreference;
+import com.techwithanandu.clearpathai.R;
+import com.techwithanandu.clearpathai.URLs;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -135,7 +135,7 @@ public class ProfileFragment extends Fragment {
 
                     if (!image.equals("no image")) {
                         Glide.with(getContext())
-                                .load("http://" + IMAGE_URL + image)
+                                .load("http://" + URLs.IMAGES_URL + image)
                                 .into(profileIV);
                     }
 

@@ -1,4 +1,4 @@
-package com.nextgen.clearpathai;
+package com.techwithanandu.clearpathai;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -200,7 +200,7 @@ public class EditProfileActivity extends AppCompatActivity {
 
             if (!image.equals("no image")) {
                 Glide.with(getApplicationContext())
-                        .load("http://" + IMAGE_URL + image)
+                        .load("http://" + URLs.IMAGES_URL + image)
                         .into(userIV);
             }
 
