@@ -1,3 +1,3 @@
 # Clear Path AI
 
-Clear path AI is an Android Mobile application used for Road Safety and to ensure safe journey of passengers.It also includes the safety features and acts as an Emergency Alert System
+Clear Path AI is an Android mobile application developed to enhance road safety and ensure a safe journey for passengers. It acts as an intelligent emergency alert system, promoting safer travel and quick response during emergencies.
