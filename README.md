@@ -9,6 +9,12 @@ Clear Path AI is an Android mobile application developed to enhance road safety 
  - ⚠️ Emergency Alerts
  - 📋 Accident Reporting
 
+## ScreenShots
+
+|                 Sign Up Screen               |                  Login Screen                |                 Forgot Password              |
+|:--------------------------------------------:|:--------------------------------------------:|:--------------------------------------------:|
+|<img src="screenshots/screen2.png" width="300" /> | <img src="screenshots/screen1.png" width="300"/> | <img src="screenshots/screen3.png" width="300"/> |
+
 
    
 
